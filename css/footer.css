@@ -1,0 +1,43 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.keyboard-row {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  gap: 8px;
+}
+
+.keyboard-column {
+  width: 45px;
+  height: 60px;
+  background-color: #d3d6da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.keyboard-column-wide {
+  width: 65px;
+  height: 60px;
+  background-color: #d3d6da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.back-spce-icon {
+  width: 25px;
+  height: 25px;
+}
